@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# UV
+.uv/
+uv.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Checkpoints and Logs (keep directory structure)
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/*.ckpt
+checkpoints/*.json
+!checkpoints/.gitkeep
+logs/*.log
+logs/*.txt
+logs/*.json
+!logs/.gitkeep
+
+# Dataset (large files)
+dataset/
+data/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Documentation
+docs/_build/
+
+# Misc
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.zip
+*.tar
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Dataset
+dataset
+checkpoints

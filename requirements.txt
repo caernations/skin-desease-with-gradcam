@@ -1,0 +1,17 @@
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image Processing
+Pillow>=9.5.0
+opencv-python>=4.8.0
+
+# Data Science & Visualization
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Web Application
+streamlit>=1.28.0
+
+# Utilities
+tqdm>=4.65.0
